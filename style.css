@@ -1,12 +1,12 @@
 /* Yo anish ko ho */
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -15,23 +15,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.main {
+.main{
     margin: 20px;
     padding: 20px;
     width: 800px;
     background: rgb(218, 34, 65);
-
-    .top {
+    .top{
         display: flex;
         justify-content: space-between;
-
+        
     }
 }
 
 
 /* Jiya ko */
 
-<<<<<<< HEAD
  /* *{
             padding: 0px;
             margin: 0px;
@@ -154,409 +152,270 @@ body {
             background-color: #2d52d8;
         }
        }  */
-=======
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 
+  /* Sarun ko */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.main {
-
-    margin: auto;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.head {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    padding-top: 20px;
-    font-family: sans-serif;
-    height: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-.textimg {
-    display: flex;
-    margin-right: 20px;
-}
-
-.text {
-    font-size: 25px;
-    font-weight: 700;
-}
-
-.admin {
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.img {
-    background-image: url(pfpadmin.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-}
-
-.search {
-    padding-top: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-family: sans-serif;
-    height: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-input {
-    outline: none;
-    border: none;
-}
-
-input::placeholder {
-    color: rgb(187, 180, 180);
-    font-family: sans-serif;
-}
-
-button {
-    padding: 10px;
-    margin-right: 20px;
-    width: 130px;
-    color: white;
-    font-weight: 600;
-    background-color: #2c51d8;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-
-}
-
-.tablee {
-    /* padding-left: 20px;
-            padding-right: 20px; */
-    background-color: white;
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-table {
-
-    /* margin-left: 25px;
-            margin-right: 25px; */
-    height: 550px;
-    width: 100%;
-    text-align: center;
-    font-family: sans-serif;
->>>>>>> b84987ff0f2fd77142322f18c1f9e23d82c83b38
-
-}
-
-.change {
-    font-weight: 700;
-}
-
-.view {
-    background-color: #2d52d8;
-}
-
-.edit {
-    background-color: #2e9f3b;
-}
-
-.del {
-    background-color: #f22830;
-}
-
-.last {
-    position: relative;
-    left: 800px;
-    color: grey;
-
-    span {
-        width: 30px;
-        height: 10px;
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
     }
 
-    span:hover {
-        background-color: #2d52d8;
-    }
-}
-
-/* Sarun ko */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-body {
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
-
-}
-
-.main_login {
-    display: flex;
-    width: 100%;
-    height: 100%;
-
-}
-
-.left_div {
-    background-color: #434dcb;
-    padding: 20px;
-    color: white;
-    width: 24%;
-
-
-}
-
-.icon {
-    display: flex;
-    margin-bottom: 30px;
-
-}
-
-.icon1 {
-    margin-right: 8px;
-
-    img {
-        width: 70px;
-    }
-}
-
-.icon2 {
-    .sms {
-        font-size: 30px;
+    body {
+        height: 100vh;
     }
 
-    .name {
-        font-size: 18px;
-    }
-}
+    .main {
+        display: flex;
 
-.menu {
-    font-size: 23px;
-}
-
-.dashboard_btn{
-    display: flex;
-    margin-bottom: 10px;
-    transition: 0.3s;
-    border-radius: 10px;
-    cursor: pointer;
-
-    padding: 15px;
-
-    i {
-        color: white;
-        margin-right: 23px;
-    }
-}
-
-.dashboard_btn:hover {
-    background-color: #555fdb;
-}
-
-.mid_div {
-    background-color: #606fee;
-    letter-spacing: 1px;
-
-    align-items: center;
-    width: 31%;
-    color: white;
-    padding: 0px 40px;
-    padding-top: 250px;
-
-
-    img {
-        width: 300px;
-
-        display: block;
-        margin: 0px auto;
-
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-size: 20px;
-        text-align: center;
-    }
-}
-
-.right_div {
-    background-color: white;
-    padding: 30px;
-    width: 45%;
-    padding-top: 100px;
-
-    #username,
-    #pass {
+        background-color: rgb(206, 143, 143);
         width: 100%;
-        padding: 10px 20px;
-        border-radius: 10px;
-        border: none;
-        outline: 1px solid gray;
-        margin-bottom: 30px;
-        margin-top: 5px;
-        font-size: 15px;
-    }
-
-
-}
-
-.login_form {
-
-    padding: 40px;
-    width: 95%;
-    display: block;
-    margin: 0px auto;
-    border: 1px solid rgba(227, 226, 225, 0.4);
-    box-shadow: 0px 0px 10px gray;
-    border-radius: 20px;
-
-    #checkbox {
-        transform: scale(1.5);
-        margin-right: 7px;
-        cursor: pointer;
+        height: 100%;
 
     }
 
-    h2 {
-        text-align: center;
+    .left_div {
+        background-color: #434dcb;
         padding: 20px;
-        margin-bottom: 15px;
+        color: white;
+        width: 24%;
+
+
     }
 
-}
+    .icon {
+        display: flex;
+        margin-bottom: 30px;
 
-#login_btn {
-    width: 100%;
-    padding: 13px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    margin-top: 25px;
-    background-color: #3252d6;
-    color: white;
-    margin-bottom: 15px;
-    transition: 0.3s;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-.login_lastpart {
-    text-align: center;
-    margin-top: 70px;
-}
-
-#login_btn:hover {
-    background-color: #535ded;
-
-}
-
-
-
-body {
-    height: 100vh;
-
-}
-
-.dashboard_main {
-    height: 100%;
-    width: 76%;
-    padding: 20px;
-    display: flex;
-
-}
-
-.dash_top {
-    background-color: red;
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.dash_mid {
-    margin-top: 10px;
-    display: flex;
-    background-color: green;
-    justify-content: space-between;
-
-}
-
-.mid_innerdiv {
-    background-color: white;
-    width: 40px;
-    padding: 20px;
-
-
-}
-
-.admin_div {
-    display: flex;
-    align-items: center;
-    background-color: green;
-
-
-    .admin {
-        font-size: 20px;
     }
 
-    .admin_photo {
+    .icon1 {
+        margin-right: 8px;
+
         img {
-            width: 50px;
-            border-radius: 50%;
+            width: 70px;
         }
     }
-}
 
-/* Rajvir ko */
-* {
+    .icon2 {
+        .sms {
+            font-size: 30px;
+        }
+
+        .name {
+            font-size: 18px;
+        }
+    }
+
+    .menu {
+        font-size: 23px;
+    }
+
+    .dashboard {
+        display: flex;
+        margin-bottom: 10px;
+        transition: 0.3s;
+        border-radius: 10px;
+
+        padding: 15px;
+
+        i {
+            color: white;
+            margin-right: 23px;
+        }
+    }
+.dashboard:hover{
+    background-color: #555fdb;
+}
+    .mid_div {
+        background-color: #606fee;
+        letter-spacing: 1px;
+        
+        align-items: center;
+        width: 31%;
+        color: white;
+        padding: 0px 40px;
+                padding-top:250px;
+
+
+        img {
+            width: 300px;
+
+            display: block;
+            margin: 0px auto;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .right_div {
+        background-color: white;
+        padding: 30px;
+        width: 45%;
+        padding-top: 100px;
+
+        #username,
+        #pass {
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: 1px solid gray;
+            margin-bottom: 30px;
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+
+    }
+
+    .login_form {
+
+        padding: 40px;
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+        border: 1px solid rgba(227, 226, 225, 0.4);
+        box-shadow: 0px 0px 10px gray;
+        border-radius: 20px;
+
+        #checkbox {
+           transform: scale(1.5);
+            margin-right: 7px;
+
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+    }
+
+    #login_btn {
+        width: 100%;
+        padding: 13px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        margin-top: 25px;
+        background-color: #3252d6;
+        color: white;
+        margin-bottom: 15px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    .login_lastpart {
+        text-align: center;
+        margin-top: 70px;
+    }
+    #login_btn:hover{
+            background-color: #535ded;
+
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        height: 100vh;
+
+    }
+
+    .dashboard_main {
+        height: 100%;
+        width: 76%;
+        padding: 20px;
+
+    }
+
+    .dash_top {
+        background-color: red;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dash_mid {
+        margin-top: 10px;
+        display: flex;
+        background-color: green;
+        justify-content: space-between;
+
+    }
+
+    .mid_innerdiv {
+        background-color: white;
+        width: 40px;
+        padding: 20px;
+
+        
+    }
+
+    .admin_div {
+        display: flex;
+        align-items: center;
+        background-color: green;
+
+
+        .admin {
+            font-size: 20px;
+        }
+
+        .admin_photo {
+            img {
+                width: 50px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    /* Rajvir ko */
+    *{
     margin: 0px;
     padding: 0x;
     box-sizing: border-box;
 }
 
-.main {
+.main{
     width: 1100px;
     height: 790px;
-
+    
     position: relative;
     left: 300px;
 
 }
-
-.upper {
+.upper{
     display: flex;
     justify-content: space-between;
-
+   
     width: 95%;
     height: 100px;
     margin-left: 20px;
 }
-
-.upright {
+.upright{
     height: 40px;
-    background-color: #3551cf;
+    background-color:#3551cf;
     color: aliceblue;
     border-radius: 15px;
     text-align: center;
@@ -567,7 +426,7 @@ body {
 
 }
 
-.upleft {
+.upleft{
     font-size: 30px;
     font-weight: 600;
     margin-left: 20px;
@@ -578,19 +437,19 @@ body {
 
 }
 
-.alldetail {
+.alldetail{
     position: absolute;
     top: 150px;
     left: 500px;
-
+  
     width: 450px;
     height: 600px;
 }
 
-.detail {
-    width: 450px;
+.detail{
+    width:450px;
     height: 50px;
-
+   
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -599,12 +458,12 @@ body {
 
     .f1 {
         font-weight: 500;
-        font-size: 20px;
+        font-size:  20px; 
     }
 }
 
-.a1 {
-
+.a1{
+    
     width: 200px;
     height: 50px;
     font-size: 19px;
@@ -612,19 +471,20 @@ body {
     color: #9a9a9b;
 }
 
-.pic {
+.pic{
     width: 350px;
     height: 500px;
-
-    position: relative;
+    
+    position:relative;
     top: 100px;
     left: 50px;
     border-radius: 20px;
     box-shadow: 3px 3px 15px;
 
-    img {
+    img{
         width: 100%;
         height: 100%;
         border-radius: 20px;
     }
 }
+
