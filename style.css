@@ -392,3 +392,102 @@ body{
             }
         }
     }
+
+    /* Rajvir ko */
+    *{
+    margin: 0px;
+    padding: 0x;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1100px;
+    height: 790px;
+    
+    position: relative;
+    left: 300px;
+
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 95%;
+    height: 100px;
+    margin-left: 20px;
+}
+.upright{
+    height: 40px;
+    background-color:#3551cf;
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    width: 200px;
+
+
+}
+
+.upleft{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: balck;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.alldetail{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+  
+    width: 450px;
+    height: 600px;
+}
+
+.detail{
+    width:450px;
+    height: 50px;
+   
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(169, 162, 162);
+
+    .f1 {
+        font-weight: 500;
+        font-size:  20px; 
+    }
+}
+
+.a1{
+    
+    width: 200px;
+    height: 50px;
+    font-size: 19px;
+    gap: 10px;
+    color: #9a9a9b;
+}
+
+.pic{
+    width: 350px;
+    height: 500px;
+    
+    position:relative;
+    top: 100px;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+}
+
