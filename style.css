@@ -156,4 +156,239 @@ body{
         }
        }
 
-       
+  /* Sarun ko */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    .main {
+        display: flex;
+
+        background-color: rgb(206, 143, 143);
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .left_div {
+        background-color: #434dcb;
+        padding: 20px;
+        color: white;
+        width: 24%;
+
+
+    }
+
+    .icon {
+        display: flex;
+        margin-bottom: 30px;
+
+    }
+
+    .icon1 {
+        margin-right: 8px;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .icon2 {
+        .sms {
+            font-size: 30px;
+        }
+
+        .name {
+            font-size: 18px;
+        }
+    }
+
+    .menu {
+        font-size: 23px;
+    }
+
+    .dashboard {
+        display: flex;
+        margin-bottom: 10px;
+        transition: 0.3s;
+        border-radius: 10px;
+
+        padding: 15px;
+
+        i {
+            color: white;
+            margin-right: 23px;
+        }
+    }
+.dashboard:hover{
+    background-color: #555fdb;
+}
+    .mid_div {
+        background-color: #606fee;
+        letter-spacing: 1px;
+        
+        align-items: center;
+        width: 31%;
+        color: white;
+        padding: 0px 40px;
+                padding-top:250px;
+
+
+        img {
+            width: 300px;
+
+            display: block;
+            margin: 0px auto;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .right_div {
+        background-color: white;
+        padding: 30px;
+        width: 45%;
+        padding-top: 100px;
+
+        #username,
+        #pass {
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: 1px solid gray;
+            margin-bottom: 30px;
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+
+    }
+
+    .login_form {
+
+        padding: 40px;
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+        border: 1px solid rgba(227, 226, 225, 0.4);
+        box-shadow: 0px 0px 10px gray;
+        border-radius: 20px;
+
+        #checkbox {
+           transform: scale(1.5);
+            margin-right: 7px;
+
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+    }
+
+    #login_btn {
+        width: 100%;
+        padding: 13px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        margin-top: 25px;
+        background-color: #3252d6;
+        color: white;
+        margin-bottom: 15px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    .login_lastpart {
+        text-align: center;
+        margin-top: 70px;
+    }
+    #login_btn:hover{
+            background-color: #535ded;
+
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        height: 100vh;
+
+    }
+
+    .dashboard_main {
+        height: 100%;
+        width: 76%;
+        padding: 20px;
+
+    }
+
+    .dash_top {
+        background-color: red;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dash_mid {
+        margin-top: 10px;
+        display: flex;
+        background-color: green;
+        justify-content: space-between;
+
+    }
+
+    .mid_innerdiv {
+        background-color: white;
+        width: 40px;
+        padding: 20px;
+
+        
+    }
+
+    .admin_div {
+        display: flex;
+        align-items: center;
+        background-color: green;
+
+
+        .admin {
+            font-size: 20px;
+        }
+
+        .admin_photo {
+            img {
+                width: 50px;
+                border-radius: 50%;
+            }
+        }
+    }
