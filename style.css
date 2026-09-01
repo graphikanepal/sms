@@ -15,15 +15,30 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.main{
+.a-main{
     margin: 20px;
     padding: 20px;
-    width: 800px;
+    width: 1500px;
+    height: 200px;
     background: rgb(218, 34, 65);
-    .top{
+    .a-top{
         display: flex;
         justify-content: space-between;
-        
+        background-color: aqua;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .a-search{
+        background: skyblue;
+        padding: 10px;
+        input{
+            padding: 5px;
+        }
+    }
+    .a-btm{
+        table{
+            height: 200px;
+        }
     }
 }
 
