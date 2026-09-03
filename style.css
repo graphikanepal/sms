@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .a-seven-body {
-=======
-.anishkobody {
->>>>>>> 754554917e415f9137a9f86c76e431862a9e4a61
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -146,29 +142,95 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #14243a;
 }
 .b-main{
     display: flex;
     height: 700px;
-    background-color: pink;
+    background-color: white;
     padding: 30px;
+    width: 1300px;
+    border-radius: 25px;
 }
 
-.leftkodiv{
-    height: 650px;
-}
+
 .rightkodiv{
-    background-color: #2e9f3b;
+    /* background-color: #2e9f3b; */
     padding: 20px;
-}
-.b-btm{
-    width: ;
-    .b-table{
-        height: 100px;
-        
+    width: 100%;
+    .b-search{
+        display: flex;
+        /* background-color: pink; */
+        padding: 15px;
+        margin: 10px 0px;
+        box-shadow: 0px 0px 2px grey;
+        input{
+            width: 400px;
+            height: 30px;
+            padding: 18px 10px;
+        }
+        .b-btn-search{
+            background-color: #2c51d8;
+            color: white;
+            border: none;
+            width: 90px;
+            margin-left: 10px;
+            border-radius: 7px;
+            transition: 0.5s;
+        }
+        .b-btn-search:hover{
+            background-color: #062ebe;
+        }
     }
 }
-
+.b-btm{
+    padding: 15px;
+    box-shadow: 0px 0px 2px grey;
+    .b-table{
+        height: 100px;
+        width: 100%;
+    }
+    td{
+        text-align: center;
+    }
+    
+}
+.b-view{
+    width: 90px;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: #2c51d8;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.b-edit{
+    width: 90px;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: #2e9f3b;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.b-del{
+    width: 90px;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: #f22830;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.b-view:hover{
+    background-color: #062ebe;
+            }
+            .b-edit:hover{
+                background-color: #00770e;
+            }
+            .b-del:hover{
+                background-color: #b4060c;
+            }
 
 /* Jiya ko */
 
