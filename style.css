@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
+.a-seven-body {
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -133,6 +133,36 @@ body {
 .dashboardd:hover{
     background-color: #555fdb;
 }
+}
+
+/* Eight Html */
+
+.b-eight-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-main{
+    display: flex;
+    height: 700px;
+    background-color: pink;
+    padding: 30px;
+}
+
+.leftkodiv{
+    height: 650px;
+}
+.rightkodiv{
+    background-color: #2e9f3b;
+    padding: 20px;
+}
+.b-btm{
+    width: ;
+    .b-table{
+        height: 100px;
+        
+    }
 }
 
 
