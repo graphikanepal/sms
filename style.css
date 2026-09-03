@@ -424,23 +424,18 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-<<<<<<< HEAD
 
-=======
+
 .loginPage-body{
     height: 100vh;
     font-family: "Poppins", sans-serif;
 }
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 .main_login {
     display: flex;
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
     font-family: "Poppins", sans-serif;
-=======
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 }
 
@@ -561,6 +556,7 @@ table {
     border: 1px solid rgba(227, 226, 225, 0.4);
     box-shadow: 0px 0px 10px gray;
     border-radius: 20px;
+    margin-top: 60px;
 
     #checkbox {
         transform: scale(1.5);
@@ -602,7 +598,7 @@ table {
 
 }
 
-<<<<<<< HEAD
+
 
 
 
@@ -647,8 +643,7 @@ table {
         color: white;
     }
 }
-=======
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
+
 .dashboard_main {
     height: 100%;
     width: 100%;
@@ -755,19 +750,19 @@ color: #f9aa18;
     margin-top: 40px;
 }
 
-<<<<<<< HEAD
 .recent{
     font-size: 20px;
 }
-table{
-    border: none;
-   
-
-}
+    
 .table_top{
     background-color: #f1f4f9;
     padding: 0px;
 }
+
+
+
+
+
 
 
 /* Rajvir ko */
@@ -777,7 +772,7 @@ table{
     height: 790px;
     position: relative;
     left: 300px;
-=======
+}
 
 .main-rajvir{
     width: 100%;
