@@ -6,7 +6,11 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+.a-seven-body {
+=======
 .anishkobody {
+>>>>>>> 754554917e415f9137a9f86c76e431862a9e4a61
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -135,28 +139,51 @@
 }
 }
 
+/* Eight Html */
+
+.b-eight-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-main{
+    display: flex;
+    height: 700px;
+    background-color: pink;
+    padding: 30px;
+}
+
+.leftkodiv{
+    height: 650px;
+}
+.rightkodiv{
+    background-color: #2e9f3b;
+    padding: 20px;
+}
+.b-btm{
+    width: ;
+    .b-table{
+        height: 100px;
+        
+    }
+}
+
 
 /* Jiya ko */
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
- /* *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-        }
-        body{
+
+        .jbody{
             background-color: #14243a;
             padding: 30px;
         }
-        .main{
+        .j-main{
         
             margin: auto;
             margin-left: 25px;
             margin-right: 25px;
         }
-        .head{
+        .j-head{
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
             padding-top: 20px;
@@ -168,21 +195,21 @@
             display: flex;
             justify-content: space-between;
         }
-        .textimg{
+        .j-textimg{
             display: flex;
             margin-right: 20px;
         }
-        .text{
+        .j-text{
             font-size: 25px;
             font-weight: 700;
         }
-        .admin{
+        .j-admin{
             font-size: 15px;
             font-weight: 600;
             margin-top: 10px;
             margin-right: 10px;
         }
-        .img{
+        .j-img{
             background-image: url(pfpadmin.png);
             background-repeat: no-repeat;
             background-size: contain;
@@ -190,7 +217,7 @@
             height: 45px;
             border-radius: 50%;
         }
-        .search{
+        .j-search{
             padding-top: 15px;
             margin-left: 25px;
             margin-right: 25px;
@@ -202,15 +229,15 @@
             display: flex;
             justify-content: space-between;
         }
-        input{
+        .jinput{
             outline: none;
             border: none;
         }
-        input::placeholder{
+        .jinput::placeholder{
             color: rgb(187, 180, 180);
             font-family: sans-serif;
         }
-        button{
+        .j-button{
             padding: 10px;
             margin-right: 20px;
             width: 130px;
@@ -232,26 +259,26 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
         }
-        table{
+        .j-table{
             height: 550px;
             width: 100%;
             text-align: center;
             font-family: sans-serif;
         
         }
-        .change{
+        .j-change{
             font-weight: 700;
         }
-        .view{
+        .j-view{
             background-color:#2d52d8 ;
         }
-        .edit{
+        .j-edit{
              background-color: #2e9f3b ;
         }
-        .del{
+        .j-del{
              background-color: #f22830;
         }
-       .last{
+       .j-last{
         position: relative;
         left: 800px;
         color: grey;
@@ -262,24 +289,16 @@
         span:hover{
             background-color: #2d52d8;
         }
-       }  */
-=======
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
+       }  
 
-
-.main {
+.jmain {
 
     margin: auto;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.head {
+.jhead {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding-top: 20px;
@@ -292,24 +311,24 @@
     justify-content: space-between;
 }
 
-.textimg {
+.jtextimg {
     display: flex;
     margin-right: 20px;
 }
 
-.text {
+.jtext {
     font-size: 25px;
     font-weight: 700;
 }
 
-.admin {
+.jadmin {
     font-size: 15px;
     font-weight: 600;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.img {
+.jimg {
     background-image: url(pfpadmin.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -318,7 +337,7 @@
     border-radius: 50%;
 }
 
-.search {
+.jsearch {
     padding-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
@@ -331,17 +350,17 @@
     justify-content: space-between;
 }
 
-input {
+.jinput {
     outline: none;
     border: none;
 }
 
-input::placeholder {
+.jinput::placeholder {
     color: rgb(187, 180, 180);
     font-family: sans-serif;
 }
 
-button {
+.jbutton {
     padding: 10px;
     margin-right: 20px;
     width: 130px;
@@ -354,9 +373,7 @@ button {
 
 }
 
-.tablee {
-    /* padding-left: 20px;
-            padding-right: 20px; */
+.jtablee {
     background-color: white;
     color: black;
     margin-left: 25px;
@@ -365,48 +382,45 @@ button {
     border-bottom-right-radius: 15px;
 }
 
-table {
-
-    /* margin-left: 25px;
-            margin-right: 25px; */
-    height: 550px;
+.jtable {
+     height: 550px;
     width: 100%;
     text-align: center;
     font-family: sans-serif;
->>>>>>> b84987ff0f2fd77142322f18c1f9e23d82c83b38
+
 
 }
 
-.change {
+.jchange {
     font-weight: 700;
 }
 
-.view {
+.jview {
     background-color: #2d52d8;
     transition: 0.5s;
 }
 
-.edit {
+.jedit {
     background-color: #2e9f3b;
     transition: 0.5s;
 }
 
-.del {
+.jdel {
     background-color: #f22830;
     transition: 0.5s;
 }
 
-.last {
+.jlast {
     position: relative;
     left: 800px;
     color: grey;
 
-    span {
+   .jspan {
         width: 30px;
         height: 10px;
     }
 
-    span:hover {
+    .jspan:hover {
         background-color: #2d52d8;
     }
 }
@@ -424,23 +438,18 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-<<<<<<< HEAD
 
-=======
+
 .loginPage-body{
     height: 100vh;
     font-family: "Poppins", sans-serif;
 }
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 .main_login {
     display: flex;
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
     font-family: "Poppins", sans-serif;
-=======
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 }
 
@@ -561,6 +570,7 @@ table {
     border: 1px solid rgba(227, 226, 225, 0.4);
     box-shadow: 0px 0px 10px gray;
     border-radius: 20px;
+    margin-top: 60px;
 
     #checkbox {
         transform: scale(1.5);
@@ -602,7 +612,7 @@ table {
 
 }
 
-<<<<<<< HEAD
+
 
 
 
@@ -647,8 +657,7 @@ table {
         color: white;
     }
 }
-=======
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
+
 .dashboard_main {
     height: 100%;
     width: 100%;
@@ -755,19 +764,19 @@ color: #f9aa18;
     margin-top: 40px;
 }
 
-<<<<<<< HEAD
 .recent{
     font-size: 20px;
 }
-table{
-    border: none;
-   
-
-}
+    
 .table_top{
     background-color: #f1f4f9;
     padding: 0px;
 }
+
+
+
+
+
 
 
 /* Rajvir ko */
@@ -777,7 +786,11 @@ table{
     height: 790px;
     position: relative;
     left: 300px;
+<<<<<<< HEAD
 ======= */
+=======
+}
+>>>>>>> 20b666f185b17c4dc155b144f7bc079258279fa4
 
 .main-rajvir{
     width: 100%;
