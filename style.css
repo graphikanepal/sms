@@ -138,7 +138,8 @@
 
 /* Jiya ko */
 
-        .j-body{
+
+        .jbody{
             background-color: #14243a;
             padding: 30px;
         }
@@ -194,11 +195,11 @@
             display: flex;
             justify-content: space-between;
         }
-        input{
+        .jinput{
             outline: none;
             border: none;
         }
-        input::placeholder{
+        .jinput::placeholder{
             color: rgb(187, 180, 180);
             font-family: sans-serif;
         }
@@ -255,22 +256,15 @@
             background-color: #2d52d8;
         }
        }  
-=======
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 
-
-.main {
+.jmain {
 
     margin: auto;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.head {
+.jhead {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding-top: 20px;
@@ -283,24 +277,24 @@
     justify-content: space-between;
 }
 
-.textimg {
+.jtextimg {
     display: flex;
     margin-right: 20px;
 }
 
-.text {
+.jtext {
     font-size: 25px;
     font-weight: 700;
 }
 
-.admin {
+.jadmin {
     font-size: 15px;
     font-weight: 600;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.img {
+.jimg {
     background-image: url(pfpadmin.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -309,7 +303,7 @@
     border-radius: 50%;
 }
 
-.search {
+.jsearch {
     padding-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
@@ -322,17 +316,17 @@
     justify-content: space-between;
 }
 
-input {
+.jinput {
     outline: none;
     border: none;
 }
 
-input::placeholder {
+.jinput::placeholder {
     color: rgb(187, 180, 180);
     font-family: sans-serif;
 }
 
-button {
+.jbutton {
     padding: 10px;
     margin-right: 20px;
     width: 130px;
@@ -345,9 +339,7 @@ button {
 
 }
 
-.tablee {
-    /* padding-left: 20px;
-            padding-right: 20px; */
+.jtablee {
     background-color: white;
     color: black;
     margin-left: 25px;
@@ -356,64 +348,79 @@ button {
     border-bottom-right-radius: 15px;
 }
 
-table {
-
-    /* margin-left: 25px;
-            margin-right: 25px; */
-    height: 550px;
+.jtable {
+     height: 550px;
     width: 100%;
     text-align: center;
     font-family: sans-serif;
->>>>>>> b84987ff0f2fd77142322f18c1f9e23d82c83b38
+
 
 }
 
-.change {
+.jchange {
     font-weight: 700;
 }
 
-.view {
+.jview {
     background-color: #2d52d8;
     transition: 0.5s;
 }
 
-.edit {
+.jedit {
     background-color: #2e9f3b;
     transition: 0.5s;
 }
 
-.del {
+.jdel {
     background-color: #f22830;
     transition: 0.5s;
 }
 
-.last {
+.jlast {
     position: relative;
     left: 800px;
     color: grey;
 
-    span {
+   .jspan {
         width: 30px;
         height: 10px;
     }
 
-    span:hover {
+    .jspan:hover {
         background-color: #2d52d8;
     }
 }
 
+
+
 /* Sarun ko */
+
+
+
+/* login page css */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+<<<<<<< HEAD
+
+=======
 .loginPage-body{
     height: 100vh;
     font-family: "Poppins", sans-serif;
 }
+>>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 .main_login {
     display: flex;
     width: 100%;
+<<<<<<< HEAD
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+=======
+>>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
 }
 
@@ -575,41 +582,139 @@ table {
 
 }
 
-.dashboard_main {
-    height: 100%;
-    width: 76%;
-    padding: 20px;
-    display: flex;
+<<<<<<< HEAD
 
+
+
+
+
+/* dashboard css */
+
+
+
+
+.left_div-dash{
+    padding: 20px;
+    box-shadow: 1px 0px 10px rgba(201, 201, 201, 0.7);
+   
 }
 
+.sms-dash{
+    color: #434dcb;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.dashboard_btn-dash{
+       display: flex;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+
+    padding: 15px;
+
+    i {
+        color: black;
+        margin-right: 23px;
+    }
+}
+
+.dashboard_btn-dash:hover{
+    background-color: #7684ee;
+    color: white;
+    i{
+        color: white;
+    }
+}
+=======
+>>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
+.dashboard_main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    background-color: #fffefe;
+ 
+
+}
+.dash_main{
+    width:76%;
+   
+    padding: 30px;
+}
 .dash_top {
-    background-color: red;
-    padding-top: 10px;
+   
+  
     display: flex;
     justify-content: space-between;
+}
+
+.fa-user-group{
+    color: #3884f5;
+}
+
+.fa-person{
+color: #318b3a;
+}
+
+.fa-person-dress{
+ color: #cd4cc8;
+}
+
+.fa-trophy{
+color: #f9aa18;
+}
+
+.dashboard{
+    font-size: 30px;
+    align-content: center;
 }
 
 .dash_mid {
     margin-top: 10px;
     display: flex;
-    background-color: green;
+   margin-top: 30px;
     justify-content: space-between;
 
 }
 
 .mid_innerdiv {
-    background-color: white;
-    width: 40px;
+    width: 230px;
     padding: 20px;
+    background-color: #fefeff;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(201, 201, 201, 0.8);
 
-
+    i{
+        font-size: 50px;
+        margin-left: 45px;
+        height: 56px;
+        
+    }
 }
+
+.upper{
+    
+    align-items: center;
+  
+}
+.lower{
+    font-size: 20px;
+
+    .num{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+}
+    
+
 
 .admin_div {
     display: flex;
     align-items: center;
-    background-color: green;
 
 
     .admin {
@@ -624,17 +729,56 @@ table {
     }
 }
 
-/* Rajvir ko */
-* {
-    margin: 0px;
-    padding: 0x;
-    box-sizing: border-box;
+
+.dash_last{
+ 
+    margin-top: 40px;
 }
 
+<<<<<<< HEAD
+.recent{
+    font-size: 20px;
+}
+table{
+    border: none;
+   
+
+}
+.table_top{
+    background-color: #f1f4f9;
+    padding: 0px;
+}
+
+
+/* Rajvir ko */
+
+.main {
+    width: 1100px;
+    height: 790px;
+    position: relative;
+    left: 300px;
+=======
 
 .main-rajvir{
     width: 100%;
     height: 650px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+}
+    
+=======
+.main {
+    width: 1100px;
+    height: 790px;
+
+>>>>>>> 0f4c355a5a250a11fd8d1e1f80c947632f260ad7
+    position: relative;
+   
+=======
+=======
+>>>>>>> ba79eebbce4fa29034efaf53e4e68e120ab74bc0
+>>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
     display: flex;
 }
@@ -683,7 +827,7 @@ table {
 .detail{
     width:450px;
     height: 40px;
-   
+}
 =======
 .detail {
     width: 450px;
