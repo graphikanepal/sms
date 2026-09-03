@@ -138,25 +138,18 @@
 
 /* Jiya ko */
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
- /* *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-        }
-        body{
+
+        .jbody{
             background-color: #14243a;
             padding: 30px;
         }
-        .main{
+        .j-main{
         
             margin: auto;
             margin-left: 25px;
             margin-right: 25px;
         }
-        .head{
+        .j-head{
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
             padding-top: 20px;
@@ -168,21 +161,21 @@
             display: flex;
             justify-content: space-between;
         }
-        .textimg{
+        .j-textimg{
             display: flex;
             margin-right: 20px;
         }
-        .text{
+        .j-text{
             font-size: 25px;
             font-weight: 700;
         }
-        .admin{
+        .j-admin{
             font-size: 15px;
             font-weight: 600;
             margin-top: 10px;
             margin-right: 10px;
         }
-        .img{
+        .j-img{
             background-image: url(pfpadmin.png);
             background-repeat: no-repeat;
             background-size: contain;
@@ -190,7 +183,7 @@
             height: 45px;
             border-radius: 50%;
         }
-        .search{
+        .j-search{
             padding-top: 15px;
             margin-left: 25px;
             margin-right: 25px;
@@ -202,15 +195,15 @@
             display: flex;
             justify-content: space-between;
         }
-        input{
+        .jinput{
             outline: none;
             border: none;
         }
-        input::placeholder{
+        .jinput::placeholder{
             color: rgb(187, 180, 180);
             font-family: sans-serif;
         }
-        button{
+        .j-button{
             padding: 10px;
             margin-right: 20px;
             width: 130px;
@@ -232,26 +225,26 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
         }
-        table{
+        .j-table{
             height: 550px;
             width: 100%;
             text-align: center;
             font-family: sans-serif;
         
         }
-        .change{
+        .j-change{
             font-weight: 700;
         }
-        .view{
+        .j-view{
             background-color:#2d52d8 ;
         }
-        .edit{
+        .j-edit{
              background-color: #2e9f3b ;
         }
-        .del{
+        .j-del{
              background-color: #f22830;
         }
-       .last{
+       .j-last{
         position: relative;
         left: 800px;
         color: grey;
@@ -262,24 +255,16 @@
         span:hover{
             background-color: #2d52d8;
         }
-       }  */
-=======
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
->>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
+       }  
 
-
-.main {
+.jmain {
 
     margin: auto;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.head {
+.jhead {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding-top: 20px;
@@ -292,24 +277,24 @@
     justify-content: space-between;
 }
 
-.textimg {
+.jtextimg {
     display: flex;
     margin-right: 20px;
 }
 
-.text {
+.jtext {
     font-size: 25px;
     font-weight: 700;
 }
 
-.admin {
+.jadmin {
     font-size: 15px;
     font-weight: 600;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.img {
+.jimg {
     background-image: url(pfpadmin.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -318,7 +303,7 @@
     border-radius: 50%;
 }
 
-.search {
+.jsearch {
     padding-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
@@ -331,17 +316,17 @@
     justify-content: space-between;
 }
 
-input {
+.jinput {
     outline: none;
     border: none;
 }
 
-input::placeholder {
+.jinput::placeholder {
     color: rgb(187, 180, 180);
     font-family: sans-serif;
 }
 
-button {
+.jbutton {
     padding: 10px;
     margin-right: 20px;
     width: 130px;
@@ -354,9 +339,7 @@ button {
 
 }
 
-.tablee {
-    /* padding-left: 20px;
-            padding-right: 20px; */
+.jtablee {
     background-color: white;
     color: black;
     margin-left: 25px;
@@ -365,48 +348,45 @@ button {
     border-bottom-right-radius: 15px;
 }
 
-table {
-
-    /* margin-left: 25px;
-            margin-right: 25px; */
-    height: 550px;
+.jtable {
+     height: 550px;
     width: 100%;
     text-align: center;
     font-family: sans-serif;
->>>>>>> b84987ff0f2fd77142322f18c1f9e23d82c83b38
+
 
 }
 
-.change {
+.jchange {
     font-weight: 700;
 }
 
-.view {
+.jview {
     background-color: #2d52d8;
     transition: 0.5s;
 }
 
-.edit {
+.jedit {
     background-color: #2e9f3b;
     transition: 0.5s;
 }
 
-.del {
+.jdel {
     background-color: #f22830;
     transition: 0.5s;
 }
 
-.last {
+.jlast {
     position: relative;
     left: 800px;
     color: grey;
 
-    span {
+   .jspan {
         width: 30px;
         height: 10px;
     }
 
-    span:hover {
+    .jspan:hover {
         background-color: #2d52d8;
     }
 }
@@ -777,6 +757,22 @@ color: #f9aa18;
 .main-rajvir{
     width: 100%;
     height: 650px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+}
+    
+=======
+.main {
+    width: 1100px;
+    height: 790px;
+
+>>>>>>> 0f4c355a5a250a11fd8d1e1f80c947632f260ad7
+    position: relative;
+   
+=======
+=======
+>>>>>>> ba79eebbce4fa29034efaf53e4e68e120ab74bc0
 >>>>>>> ae96c0becc2bbc228538801ac83c5765a80b4086
 
     display: flex;
@@ -826,7 +822,7 @@ color: #f9aa18;
 .detail{
     width:450px;
     height: 40px;
-   
+}
 =======
 .detail {
     width: 450px;
