@@ -138,23 +138,17 @@
 
 /* Jiya ko */
 
-<<<<<<< HEAD
- /* *{
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-        }
-        body{
+        .j-body{
             background-color: #14243a;
             padding: 30px;
         }
-        .main{
+        .j-main{
         
             margin: auto;
             margin-left: 25px;
             margin-right: 25px;
         }
-        .head{
+        .j-head{
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
             padding-top: 20px;
@@ -166,21 +160,21 @@
             display: flex;
             justify-content: space-between;
         }
-        .textimg{
+        .j-textimg{
             display: flex;
             margin-right: 20px;
         }
-        .text{
+        .j-text{
             font-size: 25px;
             font-weight: 700;
         }
-        .admin{
+        .j-admin{
             font-size: 15px;
             font-weight: 600;
             margin-top: 10px;
             margin-right: 10px;
         }
-        .img{
+        .j-img{
             background-image: url(pfpadmin.png);
             background-repeat: no-repeat;
             background-size: contain;
@@ -188,7 +182,7 @@
             height: 45px;
             border-radius: 50%;
         }
-        .search{
+        .j-search{
             padding-top: 15px;
             margin-left: 25px;
             margin-right: 25px;
@@ -208,7 +202,7 @@
             color: rgb(187, 180, 180);
             font-family: sans-serif;
         }
-        button{
+        .j-button{
             padding: 10px;
             margin-right: 20px;
             width: 130px;
@@ -230,26 +224,26 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
         }
-        table{
+        .j-table{
             height: 550px;
             width: 100%;
             text-align: center;
             font-family: sans-serif;
         
         }
-        .change{
+        .j-change{
             font-weight: 700;
         }
-        .view{
+        .j-view{
             background-color:#2d52d8 ;
         }
-        .edit{
+        .j-edit{
              background-color: #2e9f3b ;
         }
-        .del{
+        .j-del{
              background-color: #f22830;
         }
-       .last{
+       .j-last{
         position: relative;
         left: 800px;
         color: grey;
@@ -260,7 +254,7 @@
         span:hover{
             background-color: #2d52d8;
         }
-       }  */
+       }  
 =======
 * {
     padding: 0px;
