@@ -9,7 +9,7 @@
 .a-seven-body {
     /* display: flex;
     justify-content: center; */
-    height: 100vh;
+    /* height: 100vh; */
     /* align-items: center; */
     background-color: #14243a;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -157,7 +157,7 @@
 /* Eight Html */
 
 .b-eight-body{
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .b-main{
     display: flex;

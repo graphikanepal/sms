@@ -6,18 +6,56 @@
     <title>Search Students</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <style>
+        @media screen and (max-width: 900px){
+            .b-main{
+                display: block;
+                /* height: 150px;
+                overflow: hidden;
+                background-color: red; */
+            }
+            .b-left--div{
+                /* display: block; */
+                height: 100px;
+                overflow: hidden;
+                /* background-color: red; */
+            }
+            .icon-box{
+                display: flex;
+            }
+            .b-table{
+                
+                .b-gender, .b-course, .b-phone{
+                    font-size: 0px;
+                    
+                }
+                .b-action{
+
+                }
+            }
+        }
+
+    </style>
 </head>
 <body class="b-eight-body">
     <div class="b-main">
-        <div class="b-left--div" >
+        <div class="b-left--div" id="b-left--div">
             <div class="icon">
-                <div class="icon1">
-                    <img src="dashboard-logo.png">
+                <div class="icon-box">
+                    <div class="icon1">
+                        <img src="dashboard-logo.png">
+                    </div>
+                    <div class="icon2">
+                        <p class="sms-dash">SMS</p>
+                        <p class="name">Student management</p>
+                    </div>
                 </div>
-                <div class="icon2">
-                    <p class="sms-dash">SMS</p>
-                    <p class="name">Student management</p>
-                </div>
+                    <div class="line">
+                        <button class="bar-btn" id="bar-btn" onclick="showbar()">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                
             </div>
             <div class="menu">
 
@@ -62,24 +100,24 @@
                 
                 <table class="b-table">
                     <tr class="top-row-b">
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Gender</th>
-                        <th>Course</th>
-                        <th>Phone</th>
-                        <th>Percentage</th>
-                        <th>Action</th>
+                        <th class="b-id">ID</th>
+                        <th class="b-name">Name</th>
+                        <th class="b-gender">Gender</th>
+                        <th class="b-course">Course</th>
+                        <th class="b-phone">Phone</th>
+                        <th class="b-per">Percentage</th>
+                        <th class="b-action">Action</th>
                     </tr>
 
                     <tr>
-                        <td>32</td>
-                        <td>Sagar Pokharel</td>
-                        <td>Male</td>
-                        <td>BCA</td>
-                        <td>9812345678</td>
-                        <td>88.60%</td>
+                        <td class="b-id">32</td>
+                        <td class="b-name">Sagar Pokharel</td>
+                        <td class="b-gender">Male</td>
+                        <td class="b-course">BCA</td>
+                        <td class="b-phone">9812345678</td>
+                        <td class="b-per">88.60%</td>
                         <td class="b-last-btn-design">
-                            <button class="b-view">View</button>
+                            <button class="b-view" >View</button>
                             <button class="b-edit">Edit</button>
                             <button class="b-del">Delete</button>
                         </td>
@@ -88,5 +126,23 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let check = true;
+        function showbar(){
+            if(check == true){
+                document.getElementById("bar-btn").innerHTML = "<i class='fa-solid fa-xmark'></i>"
+                document.getElementById("b-left--div").style.height = "70%";
+                check = false;
+            }
+            else{
+                document.getElementById("bar-btn").innerHTML = "<i class='fa-solid fa-bars'></i>"
+                document.getElementById("b-left--div").style.height = "100px";
+                check = true;
+            }
+        }
+
+
+    </script>
 </body>
 </html>
