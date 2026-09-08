@@ -154,6 +154,10 @@
 }
 }
 
+.mob-view-action{
+    display: none;
+}
+
 /* Eight Html */
 
 .b-eight-body{
